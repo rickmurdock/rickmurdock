@@ -57,20 +57,20 @@ nav {
 }
 
 #intro-name {
-  font: bold 3.5em 'Marcellus SC', serif;
+  font: bold 1.5em 'Marcellus SC', serif;
   /*font: 3.5em 'Ramabhadra', sans-serif;*/
   color: #0077B5;
-  padding-top: 250px;
+  padding-top: 60px;
 }
 
 #intro-title {
-  font: bold 2.0em 'Marcellus SC', serif;
+  font: bold 1.0em 'Marcellus SC', serif;
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
 
 #intro-statement {
-  font: bold 1.5em 'Marcellus SC', serif;
+  font: bold .7em 'Marcellus SC', serif;
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -110,10 +110,11 @@ nav {
 
 #about {
   background-color: #F5F5F5;
+  padding-bottom: 50px;
 }
 
 .about-wrapper {
-  width: 80%;
+  width: 90%;
   text-align: center;
   margin: auto;
   padding-bottom: 30px;
@@ -121,9 +122,10 @@ nav {
 
 .about-title {
   color: #5F3B3B;
-  font: 3em 'Oxygen', sans-serif;
+  /*font: 3em 'Oxygen', sans-serif;*/
+  font: 1.8em 'Oxygen', sans-serif;
   text-align: center;
-  padding: 60px 0 10px 0;
+  padding: 60px 0 10px;
 }
 
 .about-polaroid {
@@ -152,10 +154,12 @@ nav {
 }
 
 #about-para {
-  margin: 40px 80px 0;
-  padding: 20px 50px;
+  margin: 40px 10px 0;
+  padding: 20px 10px;
   background-color: white;
-  font: 1.5em 'Hind Siliguri', sans-serif;
+  font: 1.0em 'Hind Siliguri', sans-serif;
+  /*font: 1.5em 'Hind Siliguri', sans-serif;*/
+  text-align: left;
 }
 
 .logos-edu {
@@ -168,6 +172,7 @@ nav {
 
 #portfolio {
   background-color: white;
+  padding-bottom: 50px;
 }
 
 .portfolio-wrapper {
@@ -177,103 +182,10 @@ nav {
 }
 
 .portfolio-title {
-  font: 3em 'Oxygen', sans-serif;
+  font: 1.8em 'Oxygen', sans-serif;
   color: #5F3B3B;
   text-align: center;
   padding: 60px 0 10px 0;
-}
-
-#skills {
-  background-color: #F5F5F5;
-  height: 800px;
-}
-
-.skills-wrapper {
-  width: 80%;
-  text-align: center;
-  margin: auto;
-}
-
-.skills-title {
-  font: 3em 'Oxygen', sans-serif;
-  color: #5F3B3B;
-  text-align: center;
-  padding: 60px 0 10px 0;
-}
-
-#skills-json {
-  text-align: left;
-  float: left;
-  padding-left: 50px;
-  margin-top: 20px;
-}
-
-#js,
-#bootstrap {
-  width: 100px;
-  height: 100px;
-}
-
-#nodejs {
-  width: 150px;
-  height: 100px;
-}
-
-#npm {
-  width: 25%;
-  height: 25%;
-}
-
-
-.skill-logos {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  margin-top: 20px;
-}
-
-pre {
-  border: 1px solid black;
-  border-radius: 5px;
-  background-color: black;
-  color: white;
-}
-
-code {
-  font: 1.3em monospace;
-}
-
-#contact {
-  background-color: black;
-  height: 400px;
-}
-
-.contact-wrapper {
-  width: 80%;
-  text-align: center;
-  margin: auto;
-}
-
-.contact-title {
-  font: 3em 'Oxygen', sans-serif;
-  color: white;
-  text-align: center;
-  padding: 60px 0 10px 0;
-}
-
-.contact-info {
-  margin-top: 30px;
-}
-
-.contact-email {
-  font: 1.4em 'Oxygen', sans-serif;
-  color: white;
-  text-decoration: none;
-}
-
-.contact-phone {
-  font: 1.4em 'Oxygen', sans-serif;
-  color: white;
 }
 
 .portfolio-projects {
@@ -300,6 +212,103 @@ code {
   margin-top: 40px;
   padding: 10px;
   text-decoration: none;
+}
+
+#skills {
+  background-color: #F5F5F5;
+  height: 800px;
+}
+
+.skills-wrapper {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.skills-title {
+  font: 1.8em 'Oxygen', sans-serif;
+  color: #5F3B3B;
+  text-align: center;
+  padding: 60px 0 10px 0;
+}
+
+#skills-json {
+  text-align: left;
+  float: left;
+  padding-left: 10px;
+  margin-top: 20px;
+}
+
+#js,
+#bootstrap {
+  width: 130px;
+  height: 130px;
+}
+
+#nodejs {
+  width: 150px;
+  height: 100px;
+}
+
+#npm {
+  width: 150px;
+  height: 100px;
+}
+
+
+.skill-logos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.skill-logos img {
+  padding: 20px;
+}
+
+pre {
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+code {
+  font: .75em monospace;
+}
+
+#contact {
+  background-color: black;
+  height: 400px;
+}
+
+.contact-wrapper {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.contact-title {
+  font: 1.8em 'Oxygen', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 60px 0 10px;
+}
+
+.contact-info {
+  margin-top: 30px;
+}
+
+.contact-email {
+  font: 1.0em 'Oxygen', sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.contact-phone {
+  font: 1.0em 'Oxygen', sans-serif;
+  color: white;
 }
 
 #intro-title {
@@ -330,4 +339,65 @@ code {
     margin-left: 0%;
     width: 100%;
   }
+}
+
+/************************************/
+/***            Tablet            ***/
+/************************************/
+@media screen and (min-width: 545px) {
+
+  #intro-name {
+    font: bold 3.5em 'Marcellus SC', serif;
+    /*font: 3.5em 'Ramabhadra', sans-serif;*/
+    padding-top: 250px;
+  }
+
+  #intro-title {
+    font: bold 2.0em 'Marcellus SC', serif;
+  }
+
+  #intro-statement {
+    font: bold 1.5em 'Marcellus SC', serif;
+  }
+
+  .about-wrapper {
+    width: 80%;
+  }
+
+  #about-para {
+    margin: 40px 80px 0;
+    padding: 20px 50px;
+  }
+
+  .about-title,
+  .portfolio-title,
+  .skills-title 
+  .contact-title {
+    font: 3em 'Oxygen', sans-serif;
+  }
+
+  #skills-json {
+    padding-left: 50px;
+  }
+
+  code {
+    font: 1.3em monospace;
+  }
+
+  .contact-email {
+    font: 1.4em 'Oxygen', sans-serif;
+  }
+
+  .contact-phone {
+    font: 1.4em 'Oxygen', sans-serif;
+  }
+}
+
+
+/************************************/
+/**            Desktop            ***/
+/************************************/
+@media screen and (min-width: 769px) {
+
+
 }
