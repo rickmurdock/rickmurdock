@@ -15,49 +15,26 @@
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" 
           media="screen" rel="stylesheet" title="no title">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <!--<nav>
-      <div class="navbar">
-        <a class="navbar-item" href="#home">Home</a>
-        <a class="navbar-item" href="#about">About</a>
-        <a class="navbar-item" href="#portfolio">Portfolio</a>
-        <a class="navbar-item" href="#skills">Skills</a>
-        <a class="navbar-item" href="#contact">Contact</a>
-      </div>
-    </nav>-->
-
     <nav>
       <ul>
-        <li><a class="navbar-item" href="#home">Home</a></li>
-        <li><a class="navbar-item" href="#about">About</a></li>
-        <li><a class="navbar-item" href="#portfolio">Portfolio</a></li>
-        <li><a class="navbar-item" href="#skills">Skills</a></li>
-        <li><a class="navbar-item" href="#contact">Contact</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <select>
-        <option value="" selected="selected">Select</option>
-        <option value="#home">Home</option>
+        <option value="#home" selected="selected">Home</option>
         <option value="#about">About</option>
         <option value="#portfolio">Portfolio</option>
-        <option value="rickmurdock"><a class="navbar-item" href="#skills">Skills</a></option>
+        <option value="#skills">Skills</option>
         <option value="#contact"><a href="#contact">Contact</a></option>
       </select>
-
-      <!--<div class="dropdown">
-        <button class="dropbtn">Menu</button>
-        <div class="dropdown-content">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
-        </div>
-      </div>-->
-
     </nav>
-
     <div id="home" class="parallax">
       <div id="intro">
         <h1 id="intro-name">Rick Murdock</h1>
@@ -91,23 +68,25 @@
       <div class="portfolio-wrapper" >
         <h2 class="portfolio-title">Portfolio</h2>
         <div class="portfolio-projects">
+
           <div class="portfolio-item">
-            <h4>SoundCloud Music Search</h4>
+            <h4 class="portfolio-item-title">SoundCloud Music Search</h4>
             <a href="http://musicmachine.surge.sh/"> 
               <img class="portfolio-image" src="./images/murdocksMusicMachine.png" alt="" >
             </a>
             <br>
             <br>
-            <a href="https://github.com/rickmurdock/mars-rover-photo-app" class="portfolio-button">View on GitHub</a>
+            <a class="portfolio-button" href="https://github.com/rickmurdock/SoundCloud-Music-Search">View on GitHub</a>
           </div>
+
           <div class="portfolio-item">
-            <h4>Mars Rover Photo App</h4>
+            <h4 class="portfolio-item-title">Mars Rover Photo App</h4>
             <a href="http://marsroversphotos.surge.sh/"> 
               <img class="portfolio-image" src="./images/marsRover.png" alt="" >
             </a>
             <br>
             <br>
-            <a href="https://github.com/rickmurdock/SoundCloud-Music-Search" class="portfolio-button">View on GitHub</a>
+            <a class="portfolio-button" href="https://github.com/rickmurdock/mars-rover-photo-app">View on GitHub</a>
           </div>
           <div class="portfolio-item"></div>
         </div>
@@ -118,7 +97,7 @@
       <div class="skills-wrapper" >
         <h2 class="skills-title">Skills</h2> 
         <div class="skills-container">    
-        <div id="skills-json">
+        <!--<div id="skills-json">
           <pre>
   <code class="language-javascript">
     tech_skills = [ 
@@ -151,15 +130,23 @@
       }
     ];</code>
           </pre>
-        </div>
+        </div>-->
 
         <div class="skill-logos">
-          <img src="./images/HTML5Logo.png" alt="">
-          <img src="./images/CSS3Logo.png" alt="">
-          <img id="bootstrap" src="./images/bootstrapLogo.svg" alt="">
-          <img id="js" src="./images/javascriptLogo.png" alt="">
-          <img id="nodejs" src="./images/nodejsLogo.png" alt="">
-          <img id="npm" src="./images/NPMLogo.png" alt="">
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+          <i class="devicon-bootstrap-plain-wordmark colored"></i>
+          <i class="devicon-jquery-plain-wordmark colored"></i>
+          <i class="devicon-nodejs-plain-wordmark colored"></i>
+          <i class="devicon-express-original-wordmark colored"></i>
+          <i class="devicon-git-plain-wordmark colored"></i>
+          <i class="devicon-github-plain-wordmark colored"></i>
+          <i class="devicon-postgresql-plain-wordmark colored"></i>
+          <i class="devicon-sequelize-plain-wordmark colored"></i>
+          <i class="devicon-mongodb-plain-wordmark colored"></i>
+          <i class="devicon-react-original-wordmark colored"></i>
+          <i class="devicon-mocha-plain colored"></i>
         </div>
 
         </div>
