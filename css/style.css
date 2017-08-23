@@ -243,12 +243,12 @@ nav select option:hover {
   flex-flow: column;
 }
 
-#skills-json {
+/*#skills-json {
   text-align: left;
   float: left;
   padding-left: 10px;
   margin-top: 20px;
-}
+}*/
 
 .skill-logos i {
   font-size: 2em;
@@ -392,9 +392,9 @@ code {
     font: 1em 'Roboto', sans-serif;
   }
 
-  #skills-json {
+  /*#skills-json {
     padding-left: 50px;
-  }
+  }*/
 
   /*code {
     font: 1.3em monospace;
