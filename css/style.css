@@ -58,20 +58,20 @@ nav select option:hover {
 }
 
 #intro-name {
-  font: bold 1.5em 'Marcellus SC', serif;
+  font: bold 1.5em 'Roboto', sans-serif;
   /*font: 3.5em 'Ramabhadra', sans-serif;*/
   color: #0077B5;
   padding-top: 60px;
 }
 
 #intro-title {
-  font: bold 1.0em 'Marcellus SC', serif;
+  font: bold 1.0em 'Roboto Condensed', sans-serif;
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
 
 #intro-statement {
-  font: bold .7em 'Marcellus SC', serif;
+  font: bold .7em 'Roboto Condensed', sans-serif;
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -124,8 +124,10 @@ nav select option:hover {
 .portfolio-title,
 .skills-title,
 .contact-title {
-  color: #5F3B3B;
-  font: 1.5em 'Oxygen', sans-serif;
+  /*color: #5F3B3B;*/
+  color: #0077B5;
+  font: 1.5em 'Roboto', sans-serif;
+  /*font: 1.5em 'Oxygen', sans-serif;*/
   text-align: center;
   padding: 60px 0 10px;
 }
@@ -164,7 +166,8 @@ nav select option:hover {
   margin: 40px 10px 0;
   padding: 20px 10px;
   background-color: white;
-  font: .75em 'Hind Siliguri', sans-serif;
+  font: .75em 'Roboto', sans-serif;
+  /*font: .75em 'Hind Siliguri', sans-serif;*/
   text-align: left;
 }
 
@@ -267,7 +270,8 @@ nav select option:hover {
 
 .contact-email,
 .contact-phone {
-  font: .6em 'Oxygen', sans-serif;
+  font: .6em 'Roboto', sans-serif;
+  /*font: .6em 'Oxygen', sans-serif;*/
   color: white;
   text-decoration: none;
 }
@@ -306,17 +310,20 @@ nav select option:hover {
   }
 
   #intro-name {
-    font: bold 3.5em 'Marcellus SC', serif;
+    font: bold 4em 'Roboto', sans-serif;
+    /*font: bold 3.5em 'Marcellus SC', serif;*/
     /*font: 3.5em 'Ramabhadra', sans-serif;*/
     padding-top: 250px;
   }
 
   #intro-title {
-    font: bold 2.0em 'Marcellus SC', serif;
+    font: bold 2em 'Roboto Condensed', sans-serif;
+    /*font: bold 2.0em 'Marcellus SC', serif;*/
   }
 
   #intro-statement {
-    font: bold 1.5em 'Marcellus SC', serif;
+    font: bold 1.5em 'Roboto Condensed', sans-serif;
+    /*font: bold 1.5em 'Marcellus SC', serif;*/
   }
 
   .about-wrapper {
@@ -326,7 +333,8 @@ nav select option:hover {
   #about-para {
     margin: 40px 80px 0;
     padding: 20px 50px;
-    font: 1.5em 'Hind Siliguri', sans-serif;
+    font: 1.5em 'Roboto', sans-serif;
+    /*font: 1.5em 'Hind Siliguri', sans-serif;*/
   }
 
   .about-polaroid p {
@@ -337,7 +345,8 @@ nav select option:hover {
   .portfolio-title,
   .skills-title, 
   .contact-title {
-    font: 3em 'Oxygen', sans-serif;
+    font: 3em 'Roboto', sans-serif;
+    /*font: 3em 'Oxygen', sans-serif;*/
   }
 
   .portfolio-wrapper {
@@ -373,7 +382,8 @@ nav select option:hover {
 
   .contact-email,
   .contact-phone {
-    font: 1.4em 'Oxygen', sans-serif;
+    font: 1.4em 'Roboto', sans-serif;
+    /*font: 1.4em 'Oxygen', sans-serif;*/
   }
 
   .contact-icons {
