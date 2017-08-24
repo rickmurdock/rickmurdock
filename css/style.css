@@ -93,7 +93,8 @@ nav select option:hover {
   margin: 25px;
 }
 
-.fa-github {
+/*.fa-github */
+#github {
   color: #24292E;
   margin: 25px;
 }
@@ -217,16 +218,6 @@ nav select option:hover {
   margin: 20px;
 }
 
-.portfolio-button {
-  color: white;
-  background-color: lightseagreen;
-  border-radius: 45px;
-  /*margin: 50px 0;*/
-  padding: 10px;
-  text-decoration: none;
-  font: .5em 'Roboto', sans-serif;
-}
-
 #skills {
   background-color: #F5F5F5;
   padding-bottom: 50px;
@@ -243,13 +234,6 @@ nav select option:hover {
   flex-flow: column;
 }
 
-/*#skills-json {
-  text-align: left;
-  float: left;
-  padding-left: 10px;
-  margin-top: 20px;
-}*/
-
 .skill-logos i {
   font-size: 2em;
   padding: 20px;
@@ -265,17 +249,6 @@ nav select option:hover {
 .skill-logos img {
   padding: 20px;
 }
-
-/*pre {
-  border: 1px solid black;
-  border-radius: 5px;
-  background-color: black;
-  color: white;
-}
-
-code {
-  font: .75em monospace;
-}*/
 
 #contact {
   background-color: black;
@@ -388,17 +361,10 @@ code {
     max-width: 450px;
   }
 
-  .portfolio-button {
-    font: 1em 'Roboto', sans-serif;
+  .portfolio-image:hover {
+    /*border: 5px so green;*/
+    box-shadow: 10px 10px 15px rgba(100, 100, 100, 0.49);*
   }
-
-  /*#skills-json {
-    padding-left: 50px;
-  }*/
-
-  /*code {
-    font: 1.3em monospace;
-  }*/
 
   .skill-logos i {
     font-size: 5em;
