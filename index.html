@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48422403-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+      gtag('config', 'UA-48422403-1');
+    </script>
     <title>Rick Murdock</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Portfolio - Rick Murdock">
+    <meta name="description" content="Rick Murdock's Web Developer Portfolio">
     <meta name="keywords" content="HTML,CSS">
     <meta name="author" content="Rick Murdock">
-    <!--<link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-    <!--<link href="https://fonts.googleapis.com/css?family=Marcellus+SC" rel="stylesheet">-->
-    <!--<link href="https://fonts.googleapis.com/css?family=Ramabhadra" rel="stylesheet">-->
-    <!--<link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">-->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker%7CRoboto%7CRoboto+Condensed" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" rel="stylesheet" title="no title">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="css/style.css" rel="stylesheet">
@@ -32,7 +35,7 @@
         <option value="#about">About</option>
         <option value="#portfolio">Portfolio</option>
         <option value="#skills">Skills</option>
-        <option value="#contact"><a href="#contact">Contact</a></option>
+        <option value="#contact">Contact</option>
       </select>
     </nav>
     <div id="home" class="parallax">
@@ -42,8 +45,8 @@
         <h3 id="intro-statement">Building the web one component at a time.</h3>
         <div class="icons">
           <a href="https://github.com/rickmurdock"><i class="fa fa-github fa-2x" id="github"></i></a>
-          <a href="https://www.linkedin.com/in/rickmurdock/"><i class="fa fa-linkedin-square fa-2x" id="linkedin"></i></a>
-          <a href="https://www.twitter.com/rickmurdock"><i class="fa fa-twitter fa-2x" id="twitter"></i></a>
+          <a href="https://www.linkedin.com/in/rickmurdock/"><i class="fa fa-linkedin-square fa-2x"></i></a>
+          <a href="https://www.twitter.com/rickmurdock"><i class="fa fa-twitter fa-2x"></i></a>
         </div> 
       </div>
     </div>
@@ -52,7 +55,7 @@
         <h2 class="about-title">About Me</h2>
         <div class="about-polaroid">
           <p>Rick Murdock</p>
-          <img src="./images/rickMurdock.jpeg" alt="Rick Murdock"/>
+          <img src="./images/rick.jpg" alt="Rick Murdock"/>
         </div>
         <div class="logos-edu">
           <img src="./images/theIronYardLogo.png" alt="The Iron Yard">
@@ -62,68 +65,78 @@
         <div id="about-para">
           <p>Software Engineer with 20+ years of experience building and supporting a variety of systems for the insurance, financial regulation, and retail industries. Past computer science graduate and recent graduate of The Iron Yard coding school. Retooling my career with modern technologies for front-end web development.</p>
         </div>
+        <div id="resume"> 
+          <a href="RickMurdockResume.pdf" target="_blank"><i class="fa fa-file-pdf-o pdf" aria-hidden="true"></i> View Resume</a>
+        </div>
       </div>
     </div>
     <div id="portfolio">
-      <div class="portfolio-wrapper" >
+      <div class="portfolio-wrapper">
         <h2 class="portfolio-title">Portfolio</h2>
         <div class="portfolio-projects">
-
-
+         <div class="portfolio-item">
+            <h4 class="portfolio-item-title">Central Florida Railway Historical Society</h4>
+              <a href="http://cfrhs.surge.sh/"> 
+                <img class="portfolio-image" src="./images/CFRHS.png" alt="Central Florida Railway Historical Society" >
+              </a>
+            <div class="portfolio-button-wrapper">
+              <a  href="https://github.com/rickmurdock/cfrhs"><i class="fa fa-github fa-2x"></i></a>
+              <span class="tech-used">HTML | CSS | Bootstrap &nbsp;(Capstone Project)</span>
+            </div>
+          </div>
           <div class="portfolio-item">
             <h4 class="portfolio-item-title">SoundCloud Music Search</h4>
               <a href="http://musicmachine.surge.sh/"> 
-                <img class="portfolio-image" src="./images/murdocksMusicMachine.png" alt="" >
+                <img class="portfolio-image" src="./images/murdocksMusicMachine.png" alt="SoundCloud Music Search" >
               </a>
             <div class="portfolio-button-wrapper">
               <a  href="https://github.com/rickmurdock/SoundCloud-Music-Search"><i class="fa fa-github fa-2x"></i></a>
+              <span class="tech-used">HTML | CSS | JavaScript</span>
             </div>
           </div>
-
           <div class="portfolio-item">
             <h4 class="portfolio-item-title">Mars Rover Photo App</h4>
             <a href="http://marsroversphotos.surge.sh/"> 
-              <img class="portfolio-image" src="./images/marsRover.png" alt="" >
+              <img class="portfolio-image" src="./images/marsRover.png" alt="Mars Rover Photo App" >
             </a>
             <div class="portfolio-button-wrapper">
               <a  href="https://github.com/rickmurdock/mars-rover-photo-app"><i class="fa fa-github fa-2x"></i></a>
+              <span class="tech-used">React | Inline Styling</span>
             </div>
           </div>
-
           <div class="portfolio-item">
             <h4 class="portfolio-item-title">E-commerce Mock Site</h4>
             <a href="http://ricksautoparts.surge.sh/"> 
-              <img class="portfolio-image" src="./images/ricksAutoParts.png" alt="" >
+              <img class="portfolio-image" src="./images/ricksAutoParts.png" alt="E-commerce Mock Site" >
             </a>
             <div class="portfolio-button-wrapper">
               <a  href="https://github.com/rickmurdock/e-commerce-mock-site"><i class="fa fa-github fa-2x"></i></a>
+              <span class="tech-used">React | React-Router | Bootstrap</span>
             </div>
           </div>
-
           <div class="portfolio-item">
             <h4 class="portfolio-item-title">Film Club Mock Site</h4>
             <a href="http://filmclub.surge.sh/"> 
-              <img class="portfolio-image" src="./images/filmClub.png" alt="" >
+              <img class="portfolio-image" src="./images/filmClub.png" alt="Film Club Mock Site" >
             </a>
             <div class="portfolio-button-wrapper">
               <a  href="https://github.com/rickmurdock/Film-Club"><i class="fa fa-github fa-2x"></i></a>
+            <span class="tech-used">HTML | CSS | Responsive Web Design</span>
             </div>
           </div>
-
           <div class="portfolio-item">
-            <h4 class="portfolio-item-title">Tic-Tac-Toe React App</h4>
-            <a href="http://tictactoereact.surge.sh/"> 
-              <img class="portfolio-image" src="./images/ticTacToe.png" alt="" >
+            <h4 class="portfolio-item-title">Mystery Word Game</h4>
+            <a href="https://mysteryword-game.herokuapp.com/"> 
+              <img class="portfolio-image" src="./images/mysteryWordGame.png" alt="Mystery Word Game" >
             </a>
             <div class="portfolio-button-wrapper">
-              <a  href="https://github.com/rickmurdock/tic-tac-toe-react-redux"><i class="fa fa-github fa-2x"></i></a>
+              <a  href="https://github.com/rickmurdock/mystery-word-game"><i class="fa fa-github fa-2x"></i></a>
+              <span class="tech-used">Node.js | Express | Mustache | CSS | Heroku</span>
             </div>
           </div>
-
         </div>
       </div>  
     </div>
-
     <div id="skills">
       <div class="skills-wrapper" >
         <h2 class="skills-title">Skills</h2> 
@@ -146,7 +159,7 @@
       </div>
     </div>
     <div id="contact">
-      <div class="contact-wrapper" >
+      <div class="contact-wrapper">
         <h2 class="contact-title">Contact Me</h2>
         <div class="contact-info">
           <a class="contact-email" href="mailto:rick.murdock@live.com?Subject=Portfolio%20Contact"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;rick.murdock@live.com</a>
