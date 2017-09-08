@@ -8,6 +8,6 @@ Personal portfolio website for Rick Murdock.
 
 ---
 
-This site showcases some of the projects built and skills learned at The Iron Yard where I was a front-end engineering student. 
-The Iron Yard is a 12 week, full-time immersive code school providing a full stack-foundation of both front-end and back-end fundamentals, including a language
-specialization in JavaScript with ReactJS.
+This site showcases some of the projects built and skills learned at The Iron Yard where I was a front-end engineering student. The Iron Yard is a 12 week, full-time immersive code school providing a full stack-foundation of both front-end and back-end fundamentals, including a language specialization in JavaScript with ReactJS.
+
+This site is a Singe Page App (SPA) built HTML5, CSS3 and JavaScript.
