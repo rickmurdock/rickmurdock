@@ -282,7 +282,7 @@ nav select option:hover {
 
 #contact {
   background-color: black;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .contact-wrapper {
@@ -318,9 +318,23 @@ nav select option:hover {
 
 .github:hover, 
 .linkedin:hover,
-.twitter:hover {
+.twitter:hover,
+.rickmurdock:hover {
   color: red;
 }
+
+.copyright {
+  font: 1em 'Roboto', sans-serif;
+  color: gray;
+  padding-left: 20px;
+}
+
+.rickmurdock {
+  font: 1em 'Roboto', sans-serif;
+  color: gray;
+  text-decoration: none;
+}
+
 
 /************************************/
 /***            Tablet            ***/
